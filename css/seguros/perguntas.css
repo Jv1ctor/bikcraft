@@ -51,13 +51,16 @@
 }
 
 .perguntas dd{
-  display: none;
   padding-left: 20px;
   padding-top: 16px;
   max-width:80ch;
 }
 
-.perguntas dd.ativo-pergunta{
+.js .perguntas dd{
+  display: none;
+}
+
+.js .perguntas dd.ativo-pergunta{
  display: block;
 }
 
